@@ -4,10 +4,21 @@
     margin: 0;
 }
 
+/* styles applied to <body> */
 body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* styles applied to <header> */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +52,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* styles applied to <main> <section class="hero"> */
 main section.hero {
     height: 800px;
     width: 100%;
@@ -59,21 +62,11 @@ main section.hero {
     background-position: center;
 }
 
+/* styles applied to <main> <section class="content"> */
 main section.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-main aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
 }
 
 main section.content article {
@@ -94,6 +87,35 @@ main section.content article h2{
     font-size: 36px;
 }
 
+/* styles applied to <main> <aside> */
+main aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+main aside .benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+main aside .benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main aside .benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* styles applied to <footer> */
 footer {
     padding: 30px;
     clear: both;
@@ -105,22 +127,7 @@ footer h2 {
     font-size: 20px;
 }
 
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* utility styles */
 .float-left {
     float: left;
     margin-right: 25px;
